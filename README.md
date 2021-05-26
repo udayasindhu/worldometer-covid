@@ -28,6 +28,15 @@ This project resembles Covid19 wordlometer dashboard.
 
 7) Navigate to `http://localhost:4200/` in browser to see the output.
 
+## Output
+<img src="src/assets/covid1.png">
+
+<img src="src/assets/covid2.png">
+
+<img src="src/assets/covid3.png">
+
+<img src="src/assets/covid4.png">
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
