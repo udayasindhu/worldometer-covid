@@ -30,7 +30,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/chart.js/dist/Chart.min.js"
+            ],
+            "allowedCommonJsDependencies": [
+              "chart.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "covid19"
+  "defaultProject": "covid19",
+  "cli": {
+    "analytics": "3c10d0d8-36c3-41f1-85aa-18e6a8c1ce90"
+  }
 }

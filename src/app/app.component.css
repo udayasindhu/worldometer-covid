@@ -1,0 +1,297 @@
+.worldometer-logo {
+    color: rgb(190, 190, 190);
+    font-size: 38px;
+}
+
+.corona {
+    color: #FF9900;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.population {
+    color: #b0afa2;
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin-left: 25px;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #e3e7e9;
+}
+
+.header-nav {
+    min-height: 63px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.covid-label {
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #777;
+    font-size: 19px;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: roboto condensed, sans-serif;
+}
+
+.last-update {
+    font-size: 13px;
+    color: #999;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.topic-links {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.links {
+    color: #699a21;
+    text-decoration: underline;
+}
+
+.weekly {
+    background-color: #8ACA2B;
+    color: white !important;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+}
+
+.cases-label {
+    font-family: roboto condensed, sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #555;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 5px;
+}
+
+.cases-num {
+    color: #aaa;
+    font-weight: 700;
+    font-size: 54px;
+    text-align: center;
+    margin: 0px;
+}
+
+.cases-death {
+    color: #696969;
+    font-weight: 700;
+    font-size: 54px;
+    text-align: center;
+    margin: 0px;
+}
+
+.cases-recovered {
+    color: #8ACA2B;
+    font-weight: 700;
+    font-size: 54px;
+    text-align: center;
+    margin: 0px;
+}
+
+.view-by-country a {
+    color: #699a21;
+    text-decoration: underline;
+}
+
+.view-by-country {
+    line-height: 30px;
+    text-align: center;
+}
+
+.accordion-button {
+    background-color: #f5f5f5;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.accordion-item {
+    padding: 0px;
+    max-width: 395px;
+    max-height: 338px;
+    width: 395px;
+}
+
+.act-cases-acc,
+.rec-cases-acc {
+    margin-top: 45px;
+    max-width: 100%;
+}
+
+.act-cases-acc {
+    margin-right: 15px;
+}
+
+.rec-cases-acc {
+    margin-left: 15px;
+}
+
+.active-cases,
+.recovered-cases {
+    margin: 40px 0;
+    perspective: 600px;
+    height: 281px;
+    width: 392px;
+}
+
+.accordion-collapse {
+    height: 281px;
+    width: 392px;
+}
+
+.card,
+.rcard {
+    height: 283px;
+    width: 394px;
+    top: -41px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+
+.card.is-flipped,
+.rcard.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.card__face,
+.rcard__face {
+    position: absolute;
+    height: 281px;
+    width: 392px;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card__face--back,
+.rcard__face--back {
+    transform: rotateY(180deg);
+}
+
+canvas {
+    height: 225px !important;
+    width: 393px;
+}
+
+.act-rec-cases-acc {
+    display: flex;
+    justify-content: center;
+}
+
+.act-current-num {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.act-mild-num,
+.rec-mild-num,
+.act-serious-num,
+.rec-serious-num {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.act-serious-num>span,
+.act-mild-num>span,
+.rec-mild-num>span {
+    color: black;
+    font-weight: 700;
+}
+
+.act-mild-num {
+    color: #8080FF;
+}
+
+.act-serious-num {
+    color: red;
+}
+
+.rec-mild-num {
+    color: #8ACA2B;
+}
+
+.rec-serious-num {
+    color: black;
+}
+
+.act-mild {
+    margin-left: 15px;
+}
+
+.card__face>.row,
+.rcard__face>.row {
+    margin-top: 25px;
+}
+
+.bar-chart {
+    width: 100%;
+    margin-top: 3%;
+    height: 100%;
+}
+
+.live-cases {
+    border: 1px solid lightgray;
+    width: 64%;
+    margin-left: 18%;
+    margin-top: 3%;
+}
+
+.update-info {
+    margin-top: 3%;
+}
+
+.reported {
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #363945;
+    text-align: center;
+}
+
+.report-data {
+    text-align: center;
+    margin-left: 6%;
+    width: 86%;
+}
+
+.report-links {
+    margin-left: 7%;
+    line-height: 8;
+}
+
+.now-buttons,
+.all-buttons,
+.main-buttons {
+    margin-left: 7%;
+}
+
+.now-buttons,
+.all-buttons {
+    margin-top: 2%;
+}
+
+.all-buttons {
+    width: 85%;
+    border: 1px solid lightgray;
+}
+
+td, th{
+    border: 1px solid lightgrey;
+}

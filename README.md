@@ -1,10 +1,32 @@
 # Covid19
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+This project resembles Covid19 wordlometer dashboard.
 
-## Development server
+## Steps to see the output.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1) To get started with the project setup, make sure you have nodejs installed. You can check the version of node in the command line using the following command
+
+`node –v`
+
+2)If you do not get the version, install nodejs from their official site
+
+`https://nodejs.org/en/`
+
+3) Once you have nodejs installed, npm will also get installed with it. To check npm version, run the following command in command line
+
+`npm -v`
+
+4) To install Angular, run the following command in command line
+
+`npm install -g @angular/cli`
+
+5)Now redirect to the following path of code 'C:\MyCode\covid19\covid19', where you should see package.json file and run the following command in command line
+
+`npm install`
+
+6) Now run `ng serve`.
+
+7) Navigate to `http://localhost:4200/` in browser to see the output.
 
 ## Code scaffolding
 
